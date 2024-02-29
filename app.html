@@ -1,0 +1,38 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>卦象小軟體</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="logo"><h1>卦象小軟體</h1></div>
+    <div class="center">
+      <div class="left">
+        <button type="button" id="1" onclick="hexagram(1)">少陽</button>
+        <button type="button" id="1-old" onclick="hexagram(2)">老陽</button>
+        <button type="button" id="0" onclick="hexagram(3)">少陰</button>
+        <button type="button" id="0-old" onclick="hexagram(4)">老陰</button>
+        <button type="button" id="change" onclick="hexChange()">變卦</button>
+        <button type="button" id="change" onclick="hexClean()">重置</button>
+      </div>
+      <div class="middle">
+        <div class="yao yao6"><img src="./img/0-old.png" alt="" /></div>
+        <div class="yao yao5"><img src="./img/0.png" alt="" /></div>
+        <div class="yao yao4"><img src="./img/1.png" alt="" /></div>
+        <div class="yao yao3"><img src="./img/1-old.png" alt="" /></div>
+        <div class="yao yao2"><img src="./img/0.png" alt="" /></div>
+        <div class="yao yao1"><img src="./img/0.png" alt="" /></div>
+      </div>
+      <div class="right">
+        <div class="hexMonji">
+          <p id="hexUp">雷</p>
+          <p id="hexDown">山</p>
+          <p id="hexMeaning">小過</p>
+        </div>
+      </div>
+    </div>
+    <div class="bottom"><h1></h1></div>
+  </body>
+  <script src="app.js"></script>
+</html>
