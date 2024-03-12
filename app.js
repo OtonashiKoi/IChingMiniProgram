@@ -6,6 +6,7 @@ const yao4 = document.querySelector(".yao4");
 const yao5 = document.querySelector(".yao5");
 const yao6 = document.querySelector(".yao6");
 const hexMonji = document.querySelector(".hexMonji");
+const yao7 = document.querySelector(".yao7");
 
 //卦象
 const yaoComment = [];
